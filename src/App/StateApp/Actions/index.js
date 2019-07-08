@@ -1,0 +1,1 @@
+export const setLoading = (val) => ({type : "LOADING", payload : val})
