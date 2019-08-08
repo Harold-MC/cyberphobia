@@ -1,6 +1,6 @@
 import React from 'react'
 import { ParallaxLayout } from './../../Layouts'
-import { Header, Content, Chart } from './../../Components'
+import { Header, Content, Chart, Footer } from './../../Components'
 
 import { WhatIs, Estadistics, Cause, Solution } from './../../Constants'
 
@@ -67,7 +67,7 @@ function Home() {
                 description={Solution.description} />
         </ParallaxLayout>,
         <div>
-            <h1 style = {{textAlign : "center", fontStyle : "italic"}}>@Grupo #2 Etica 4 2019-C-2</h1>
+            <Footer />
         </div>
     ];
 }
